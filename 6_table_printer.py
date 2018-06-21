@@ -4,6 +4,7 @@
 
 
 def table_printer(collection):
+    #  define max string width for table formatting
     width = max(len(tableData[i][j]) for i in range(len(tableData)) for j in range(len(tableData[0])))
 
     for i in range(len(tableData[0])):
